@@ -1,0 +1,13 @@
+agg: last
+batch_size: 10
+discriminator: dot
+emb_dim: 10
+hidden_dim: 100
+in_dim: 3
+lr: 0.001
+mc_sample_size: 40
+name: default
+num_epochs: 50
+w: 0.05
+weight_decay: 0.001
+window_size: 50
