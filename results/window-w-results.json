@@ -250,5 +250,593 @@
                 "davies_bouldin": 2.0325513596328344
             }
         }
+    },
+    {
+        "hparams": {
+            "agg": "last",
+            "discriminator": "dot",
+            "in_dim": 3,
+            "hidden_dim": 100,
+            "emb_dim": 10,
+            "window_size": 100,
+            "mc_sample_size": 40,
+            "w": 0.05,
+            "num_epochs": 50,
+            "lr": 0.001,
+            "weight_decay": 0.001,
+            "batch_size": 10,
+            "name": "window_size_100-0"
+        },
+        "metrics": {
+            "auc": {
+                "train": 0.832165550566247,
+                "val": 0.7816402774116472,
+                "test": 0.8194799505985961
+            },
+            "cluster": {
+                "silhouette": 0.21317052841186523,
+                "davies_bouldin": 1.5281037368346102
+            }
+        }
+    },
+    {
+        "hparams": {
+            "agg": "last",
+            "discriminator": "dot",
+            "in_dim": 3,
+            "hidden_dim": 100,
+            "emb_dim": 10,
+            "window_size": 100,
+            "mc_sample_size": 40,
+            "w": 0.05,
+            "num_epochs": 50,
+            "lr": 0.001,
+            "weight_decay": 0.001,
+            "batch_size": 10,
+            "name": "window_size_100-1"
+        },
+        "metrics": {
+            "auc": {
+                "train": 0.8446513549419183,
+                "val": 0.7908436474960366,
+                "test": 0.8362826692573677
+            },
+            "cluster": {
+                "silhouette": 0.17462733387947083,
+                "davies_bouldin": 1.7809481464462968
+            }
+        }
+    },
+    {
+        "hparams": {
+            "agg": "last",
+            "discriminator": "dot",
+            "in_dim": 3,
+            "hidden_dim": 100,
+            "emb_dim": 10,
+            "window_size": 100,
+            "mc_sample_size": 40,
+            "w": 0.05,
+            "num_epochs": 50,
+            "lr": 0.001,
+            "weight_decay": 0.001,
+            "batch_size": 10,
+            "name": "window_size_100-2"
+        },
+        "metrics": {
+            "auc": {
+                "train": 0.8464650966092333,
+                "val": 0.7910884366650054,
+                "test": 0.8328494935760414
+            },
+            "cluster": {
+                "silhouette": 0.15090642869472504,
+                "davies_bouldin": 1.7692967656830387
+            }
+        }
+    },
+    {
+        "hparams": {
+            "agg": "last",
+            "discriminator": "dot",
+            "in_dim": 3,
+            "hidden_dim": 100,
+            "emb_dim": 10,
+            "window_size": 50,
+            "mc_sample_size": 40,
+            "w": 0,
+            "num_epochs": 50,
+            "lr": 0.001,
+            "weight_decay": 0.001,
+            "batch_size": 10,
+            "name": "w_0-0"
+        },
+        "metrics": {
+            "auc": {
+                "train": 0.9084925702642306,
+                "val": 0.8875600676444005,
+                "test": 0.8965725015101476
+            },
+            "cluster": {
+                "silhouette": 0.16892437636852264,
+                "davies_bouldin": 1.855409335998849
+            }
+        }
+    },
+    {
+        "hparams": {
+            "agg": "last",
+            "discriminator": "dot",
+            "in_dim": 3,
+            "hidden_dim": 100,
+            "emb_dim": 10,
+            "window_size": 50,
+            "mc_sample_size": 40,
+            "w": 0,
+            "num_epochs": 50,
+            "lr": 0.001,
+            "weight_decay": 0.001,
+            "batch_size": 10,
+            "name": "w_0-1"
+        },
+        "metrics": {
+            "auc": {
+                "train": 0.9137374998573747,
+                "val": 0.8941688749574919,
+                "test": 0.9034809181123714
+            },
+            "cluster": {
+                "silhouette": 0.18474216759204865,
+                "davies_bouldin": 2.0007534766167145
+            }
+        }
+    },
+    {
+        "hparams": {
+            "agg": "last",
+            "discriminator": "dot",
+            "in_dim": 3,
+            "hidden_dim": 100,
+            "emb_dim": 10,
+            "window_size": 50,
+            "mc_sample_size": 40,
+            "w": 0,
+            "num_epochs": 50,
+            "lr": 0.001,
+            "weight_decay": 0.001,
+            "batch_size": 10,
+            "name": "w_0-2"
+        },
+        "metrics": {
+            "auc": {
+                "train": 0.9014383737815432,
+                "val": 0.8800386285322639,
+                "test": 0.8888432149976413
+            },
+            "cluster": {
+                "silhouette": 0.16680248081684113,
+                "davies_bouldin": 1.759362156103017
+            }
+        }
+    },
+    {
+        "hparams": {
+            "agg": "last",
+            "discriminator": "dot",
+            "in_dim": 3,
+            "hidden_dim": 100,
+            "emb_dim": 10,
+            "window_size": 50,
+            "mc_sample_size": 40,
+            "w": 0.05,
+            "num_epochs": 50,
+            "lr": 0.001,
+            "weight_decay": 0.001,
+            "batch_size": 10,
+            "name": "w_0.05-0"
+        },
+        "metrics": {
+            "auc": {
+                "train": 0.9050587713180873,
+                "val": 0.8817123087846466,
+                "test": 0.8931812116478766
+            },
+            "cluster": {
+                "silhouette": 0.27216193079948425,
+                "davies_bouldin": 1.5504139551115825
+            }
+        }
+    },
+    {
+        "hparams": {
+            "agg": "last",
+            "discriminator": "dot",
+            "in_dim": 3,
+            "hidden_dim": 100,
+            "emb_dim": 10,
+            "window_size": 50,
+            "mc_sample_size": 40,
+            "w": 0.05,
+            "num_epochs": 50,
+            "lr": 0.001,
+            "weight_decay": 0.001,
+            "batch_size": 10,
+            "name": "w_0.05-1"
+        },
+        "metrics": {
+            "auc": {
+                "train": 0.9118699328967061,
+                "val": 0.890359558760293,
+                "test": 0.9013357295024302
+            },
+            "cluster": {
+                "silhouette": 0.14885009825229645,
+                "davies_bouldin": 1.9651599137111504
+            }
+        }
+    },
+    {
+        "hparams": {
+            "agg": "last",
+            "discriminator": "dot",
+            "in_dim": 3,
+            "hidden_dim": 100,
+            "emb_dim": 10,
+            "window_size": 50,
+            "mc_sample_size": 40,
+            "w": 0.05,
+            "num_epochs": 50,
+            "lr": 0.001,
+            "weight_decay": 0.001,
+            "batch_size": 10,
+            "name": "w_0.05-2"
+        },
+        "metrics": {
+            "auc": {
+                "train": 0.9080254770859673,
+                "val": 0.8860206686282575,
+                "test": 0.8960373100801736
+            },
+            "cluster": {
+                "silhouette": 0.1393120437860489,
+                "davies_bouldin": 2.0324467496352465
+            }
+        }
+    },
+    {
+        "hparams": {
+            "agg": "last",
+            "discriminator": "dot",
+            "in_dim": 3,
+            "hidden_dim": 100,
+            "emb_dim": 10,
+            "window_size": 50,
+            "mc_sample_size": 40,
+            "w": 0.1,
+            "num_epochs": 50,
+            "lr": 0.001,
+            "weight_decay": 0.001,
+            "batch_size": 10,
+            "name": "w_0.1-0"
+        },
+        "metrics": {
+            "auc": {
+                "train": 0.8980390031672655,
+                "val": 0.8786418168077899,
+                "test": 0.8872700140808893
+            },
+            "cluster": {
+                "silhouette": 0.20595861971378326,
+                "davies_bouldin": 1.6021916806230618
+            }
+        }
+    },
+    {
+        "hparams": {
+            "agg": "last",
+            "discriminator": "dot",
+            "in_dim": 3,
+            "hidden_dim": 100,
+            "emb_dim": 10,
+            "window_size": 50,
+            "mc_sample_size": 40,
+            "w": 0.1,
+            "num_epochs": 50,
+            "lr": 0.001,
+            "weight_decay": 0.001,
+            "batch_size": 10,
+            "name": "w_0.1-1"
+        },
+        "metrics": {
+            "auc": {
+                "train": 0.913458240213372,
+                "val": 0.8922389689190179,
+                "test": 0.9012769125502793
+            },
+            "cluster": {
+                "silhouette": 0.14084061980247498,
+                "davies_bouldin": 2.0844822309224376
+            }
+        }
+    },
+    {
+        "hparams": {
+            "agg": "last",
+            "discriminator": "dot",
+            "in_dim": 3,
+            "hidden_dim": 100,
+            "emb_dim": 10,
+            "window_size": 50,
+            "mc_sample_size": 40,
+            "w": 0.1,
+            "num_epochs": 50,
+            "lr": 0.001,
+            "weight_decay": 0.001,
+            "batch_size": 10,
+            "name": "w_0.1-2"
+        },
+        "metrics": {
+            "auc": {
+                "train": 0.9047173316347313,
+                "val": 0.881434741100959,
+                "test": 0.8917408928581149
+            },
+            "cluster": {
+                "silhouette": 0.217905193567276,
+                "davies_bouldin": 1.8022916030247074
+            }
+        }
+    },
+    {
+        "hparams": {
+            "agg": "last",
+            "discriminator": "dot",
+            "in_dim": 3,
+            "hidden_dim": 100,
+            "emb_dim": 10,
+            "window_size": 50,
+            "mc_sample_size": 40,
+            "w": 0.5,
+            "num_epochs": 50,
+            "lr": 0.001,
+            "weight_decay": 0.001,
+            "batch_size": 10,
+            "name": "w_0.5-0"
+        },
+        "metrics": {
+            "auc": {
+                "train": 0.8524916998254737,
+                "val": 0.8478124249837836,
+                "test": 0.8533383319042009
+            },
+            "cluster": {
+                "silhouette": 0.2303851693868637,
+                "davies_bouldin": 1.4633020080406238
+            }
+        }
+    },
+    {
+        "hparams": {
+            "agg": "last",
+            "discriminator": "dot",
+            "in_dim": 3,
+            "hidden_dim": 100,
+            "emb_dim": 10,
+            "window_size": 50,
+            "mc_sample_size": 40,
+            "w": 0.5,
+            "num_epochs": 50,
+            "lr": 0.001,
+            "weight_decay": 0.001,
+            "batch_size": 10,
+            "name": "w_0.5-1"
+        },
+        "metrics": {
+            "auc": {
+                "train": 0.8428259266497564,
+                "val": 0.8362218775648397,
+                "test": 0.8423694344177628
+            },
+            "cluster": {
+                "silhouette": 0.287112295627594,
+                "davies_bouldin": 1.1752978661212354
+            }
+        }
+    },
+    {
+        "hparams": {
+            "agg": "last",
+            "discriminator": "dot",
+            "in_dim": 3,
+            "hidden_dim": 100,
+            "emb_dim": 10,
+            "window_size": 50,
+            "mc_sample_size": 40,
+            "w": 0.5,
+            "num_epochs": 50,
+            "lr": 0.001,
+            "weight_decay": 0.001,
+            "batch_size": 10,
+            "name": "w_0.5-2"
+        },
+        "metrics": {
+            "auc": {
+                "train": 0.7788489011354842,
+                "val": 0.74450121482851,
+                "test": 0.7813749129142792
+            },
+            "cluster": {
+                "silhouette": 0.26666775345802307,
+                "davies_bouldin": 1.1377057115044549
+            }
+        }
+    },
+    {
+        "hparams": {
+            "agg": "last",
+            "discriminator": "dot",
+            "in_dim": 3,
+            "hidden_dim": 100,
+            "emb_dim": 10,
+            "window_size": 50,
+            "mc_sample_size": 40,
+            "w": 0.95,
+            "num_epochs": 50,
+            "lr": 0.001,
+            "weight_decay": 0.001,
+            "batch_size": 10,
+            "name": "w_0.95-0"
+        },
+        "metrics": {
+            "auc": {
+                "train": 0.7835958324294995,
+                "val": 0.7624729176304451,
+                "test": 0.7973226863979551
+            },
+            "cluster": {
+                "silhouette": 0.27027666568756104,
+                "davies_bouldin": 1.1585785448966401
+            }
+        }
+    },
+    {
+        "hparams": {
+            "agg": "last",
+            "discriminator": "dot",
+            "in_dim": 3,
+            "hidden_dim": 100,
+            "emb_dim": 10,
+            "window_size": 50,
+            "mc_sample_size": 40,
+            "w": 0.95,
+            "num_epochs": 50,
+            "lr": 0.001,
+            "weight_decay": 0.001,
+            "batch_size": 10,
+            "name": "w_0.95-1"
+        },
+        "metrics": {
+            "auc": {
+                "train": 0.8200284246985774,
+                "val": 0.8103383207073539,
+                "test": 0.8257570122620849
+            },
+            "cluster": {
+                "silhouette": 0.2756677567958832,
+                "davies_bouldin": 1.204583538686189
+            }
+        }
+    },
+    {
+        "hparams": {
+            "agg": "last",
+            "discriminator": "dot",
+            "in_dim": 3,
+            "hidden_dim": 100,
+            "emb_dim": 10,
+            "window_size": 50,
+            "mc_sample_size": 40,
+            "w": 0.95,
+            "num_epochs": 50,
+            "lr": 0.001,
+            "weight_decay": 0.001,
+            "batch_size": 10,
+            "name": "w_0.95-2"
+        },
+        "metrics": {
+            "auc": {
+                "train": 0.7893605012963647,
+                "val": 0.793289258536015,
+                "test": 0.7868959744042261
+            },
+            "cluster": {
+                "silhouette": 0.2349746972322464,
+                "davies_bouldin": 1.2949079855626622
+            }
+        }
+    },
+    {
+        "hparams": {
+            "agg": "last",
+            "discriminator": "dot",
+            "in_dim": 3,
+            "hidden_dim": 100,
+            "emb_dim": 10,
+            "window_size": 50,
+            "mc_sample_size": 40,
+            "w": 1,
+            "num_epochs": 50,
+            "lr": 0.001,
+            "weight_decay": 0.001,
+            "batch_size": 10,
+            "name": "w_1-0"
+        },
+        "metrics": {
+            "auc": {
+                "train": 0.783867268347415,
+                "val": 0.7628829999050317,
+                "test": 0.7977746456115515
+            },
+            "cluster": {
+                "silhouette": 0.2696031630039215,
+                "davies_bouldin": 1.1615653243966233
+            }
+        }
+    },
+    {
+        "hparams": {
+            "agg": "last",
+            "discriminator": "dot",
+            "in_dim": 3,
+            "hidden_dim": 100,
+            "emb_dim": 10,
+            "window_size": 50,
+            "mc_sample_size": 40,
+            "w": 1,
+            "num_epochs": 50,
+            "lr": 0.001,
+            "weight_decay": 0.001,
+            "batch_size": 10,
+            "name": "w_1-1"
+        },
+        "metrics": {
+            "auc": {
+                "train": 0.8198361880150092,
+                "val": 0.8101500150875915,
+                "test": 0.8256324730630018
+            },
+            "cluster": {
+                "silhouette": 0.2761630713939667,
+                "davies_bouldin": 1.203693372862892
+            }
+        }
+    },
+    {
+        "hparams": {
+            "agg": "last",
+            "discriminator": "dot",
+            "in_dim": 3,
+            "hidden_dim": 100,
+            "emb_dim": 10,
+            "window_size": 50,
+            "mc_sample_size": 40,
+            "w": 1,
+            "num_epochs": 50,
+            "lr": 0.001,
+            "weight_decay": 0.001,
+            "batch_size": 10,
+            "name": "w_1-2"
+        },
+        "metrics": {
+            "auc": {
+                "train": 0.7903633601287344,
+                "val": 0.7948652865109413,
+                "test": 0.7884149487610342
+            },
+            "cluster": {
+                "silhouette": 0.23568128049373627,
+                "davies_bouldin": 1.2921150770434604
+            }
+        }
     }
 ]
